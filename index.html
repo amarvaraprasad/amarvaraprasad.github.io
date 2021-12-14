@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>User Profile</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" />
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="bg-white shadow rounded-lg d-block d-sm-flex">
+                <div class="profile-tab-nav border-right">
+                    <div class="p-4">
+                        <div class="img-circle text-center mb-3">
+                            <img src="Amar_PP.jpg" width="400" height="300" alt="Image" class="shadow" />
+                        </div>
+                        <h4 class="text-center">Amar Vara Prasad Akula</h4>
+                    </div>
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <a class="nav-link active" id="account-tab" data-toggle="pill" href="#account" role="tab"
+                            aria-controls="account" aria-selected="true">
+                            <i class="fa fa-user text-center mr-1"></i>
+                            Personal Information
+                        </a>
+                        <a class="nav-link" id="password-tab" data-toggle="pill" href="#password" role="tab"
+                            aria-controls="password" aria-selected="false">
+                            <i class="fa fa-university text-center mr-1"></i>
+                            Educational Qualification
+                        </a>
+                        <a class="nav-link" id="security-tab" data-toggle="pill" href="#security" role="tab"
+                            aria-controls="security" aria-selected="false">
+                            <i class="fa fa-trophy text-center mr-1"></i>
+                            Skill Set
+                        </a>
+                        <a class="nav-link" id="application-tab" data-toggle="pill" href="#application" role="tab"
+                            aria-controls="application" aria-selected="false">
+                            <i class="fa fa-id-card text-center mr-1"></i>
+                            Contact
+                        </a>
+                    </div>
+                </div>
+                <div class="tab-content p-4 p-md-5" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="account" role="tabpanel" aria-labelledby="account-tab">
+                        <h3 class="mb-4">Personal Information</h3>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>First Name</label>
+                                    <input type="text" class="form-control" value="Amar Vara Prasad" readonly />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Last Name</label>
+                                    <input type="text" class="form-control" value="Akula" readonly />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Email</label>
+                                    <input type="text" class="form-control" value="asvavp007@gmail.com" readonly />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Phone number</label>
+                                    <input type="text" class="form-control" value="+91 8309258864" readonly />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Company</label>
+                                    <input type="text" class="form-control" value="SAP Labs India" readonly />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Designation</label>
+                                    <input type="text" class="form-control" value="Full Stack Developer" readonly />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="password" role="tabpanel" aria-labelledby="password-tab">
+                        <h3 class="mb-4">Educational Qualification</h3>
+                        <i class="fa fa-graduation-cap text-center mr-1"></i>
+                        <label>M.Tech 2020-2022</label>
+                        <br />
+                        <span class="text-secondary">BITS Pilani WILP</span>
+                        <br /><br />
+                        <label>B.Tech 2016-2020</label>
+                        <br />
+
+                        <span class="text-secondary">CMR College of Engineering & Technology</span>
+                        <br /><br />
+
+                        <label>Intermediate 2014-2016</label>
+                        <br />
+                        <span class="text-secondary">Narayana Junior College</span>
+                    </div>
+                    <div class="tab-pane fade" id="security" role="tabpanel" aria-labelledby="security-tab"
+                        style="width: 500px">
+                        <h6 class="d-flex align-items-center mb-3">
+                            <i class="material-icons text-info mr-2"></i>Skill Set
+                        </h6>
+                        <label>Java</label>
+                        <div class="progress mb-3" style="height: 5px">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 80%"
+                                aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <label>Spring Boot</label>
+                        <div class="progress mb-3" style="height: 5px">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 52%"
+                                aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <label>Python</label>
+                        <div class="progress mb-3" style="height: 5px">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 60%"
+                                aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <label>C</label>
+                        <div class="progress mb-3" style="height: 5px">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 89%"
+                                aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <label>SAPUI5</label>
+                        <div class="progress mb-3" style="height: 5px">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 55%"
+                                aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <label>HTML & CSS</label>
+                        <div class="progress mb-3" style="height: 5px">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 66%"
+                                aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="application" role="tabpanel" aria-labelledby="application-tab">
+                        <h3 class="mb-4">Contact me here!</h3>
+                        <div class="contact">
+                            <i class="fa fa-phone text-center mr-1"></i>
+                            <label>+91 8309258864</label>
+                        </div>
+                        <div class="linkedIn">
+                            <i class="fa fa-linkedin text-center mr-1"></i>
+                            <label>Amar Vara Prasad A.</label>
+                        </div>
+                        <div class="linkedIn">
+                            <i class="fa fa-envelope-square text-center mr-1"></i>
+                            <label>2020sp93024@wilp.bits-pilani.ac.in</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
